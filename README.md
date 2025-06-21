@@ -55,5 +55,12 @@ P.S if using on a chain other than Unichain, Please confirm blockchain explorer 
 ```javascript
 let Api_url = 'https://api.uniscan.xyz/api';
 ```
+
+## TODO
+```
+Add Function Parameters & State Changes: Display the values of key parameters passed into hook functions and how internal hook state variables change during execution.
+
+Add Complex Hook Decoding: Current version is simplified
+```
 # uni-v4-traceAnalyzer
 Tool designed to help developers Analyze Uniswap V4 hook interactions within transactions
