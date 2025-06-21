@@ -10,8 +10,12 @@ The tool can also generate a Mermaid diagram data string, which can be rendered 
 * **Uniswap V4 Specific Decoding:** Decodes calls to the Uniswap V4 Pool Manager and known hook interfaces.
 * **Hook Detection:** Identifies the hook contract address involved in the transaction.
 * **Hook Permission Decoding:** Decodes the permissions encoded in the hook address (based on Uniswap V4 specification).
-* **Mermaid Diagram Generation:** // Code is present but not implemented yet cause it doesn't look pretty.
 * **External ABI Fetching:** Automatically fetches ABIs from Etherscan (or compatible block explorers like Uniscan) for unknown contracts to enhance decoding.
+* **Execution Flow Diagram:** A flowchart or sequence diagram showing: // Code is present but not implemented yet cause it doesn't look pretty.
+    - Calls from the `PoolManager` to the hook.
+    - Internal logic within the hook contract.
+    - Any external calls made by the hook (e.g., to oracles, other DeFi protocols).
+    - Return values from hook functions and their impact on `PoolManager` logic (e.g., `lpFeeOverride`, `hookDelta`). // not implemented yet
 
 ## Prerequisites
 
@@ -59,7 +63,7 @@ let Api_url = 'https://api.uniscan.xyz/api';
 ## TODO
 ```
 Add Function Parameters & State Changes: Display the values of key parameters passed into hook functions and how internal hook state variables change during execution.
-
+Add impact on `PoolManager` logic from returned values (e.g., `lpFeeOverride`, `hookDelta`)
 Add Complex Hook Decoding: Current version is simplified
 ```
 # uni-v4-traceAnalyzer
