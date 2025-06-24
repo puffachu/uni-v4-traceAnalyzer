@@ -1,4 +1,7 @@
 # Uniswap V4 Trace Analyzer
+
+Tool designed to help developers Analyze Uniswap V4 hook interactions within transactions
+
 Live Demo = https://uni-v4-trace-analyzer.vercel.app/
 ![image](https://github.com/user-attachments/assets/e4e31dee-bf73-4392-b90a-da0dd23c06a1)
 
@@ -68,5 +71,3 @@ Add Function Parameters & State Changes: Display the values of key parameters pa
 Add impact on `PoolManager` logic from returned values (e.g., `lpFeeOverride`, `hookDelta`)
 Add Complex Hook Decoding: Current version is simplified
 ```
-# uni-v4-traceAnalyzer
-Tool designed to help developers Analyze Uniswap V4 hook interactions within transactions
