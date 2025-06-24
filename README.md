@@ -1,8 +1,6 @@
 # Uniswap V4 Trace Analyzer
 Live Demo = https://uni-v4-trace-analyzer.vercel.app/
-![image](https://github.com/user-attachments/assets/2a1c49a3-9732-40d9-bddc-eb61e93dfc14)
-
-![image](https://github.com/user-attachments/assets/4e48f892-3b94-4b9f-b2f5-b6056bd2e95a)
+![image](https://github.com/user-attachments/assets/e4e31dee-bf73-4392-b90a-da0dd23c06a1)
 
 This is a command-line interface (CLI) tool designed to help developers debug Uniswap V4 hook interactions within transactions. It traces a given Ethereum transaction hash, decodes calls to the Uniswap V4 Pool Manager and associated hooks, and provides a detailed breakdown of the execution flow, including detected hook addresses and their permissions.
 
