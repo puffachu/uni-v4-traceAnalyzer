@@ -18,7 +18,7 @@ The tool can also generate a Mermaid diagram data string, which can be rendered 
     - Calls from the `PoolManager` to the hook.
     - Internal logic within the hook contract.
     - Any external calls made by the hook (e.g., to oracles, other DeFi protocols).
-    - Return values from hook functions and their impact on `PoolManager` logic (e.g., `lpFeeOverride`, `hookDelta`). // not implemented yet
+    - Return values from hook functions and their impact on `PoolManager` logic (e.g., `lpFeeOverride`, `hookDelta`).
 
 ## Prerequisites
 
