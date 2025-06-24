@@ -1,5 +1,6 @@
 # Uniswap V4 Trace Analyzer
 Live Demo = https://uni-v4-trace-analyzer.vercel.app/
+![image](https://github.com/user-attachments/assets/2a1c49a3-9732-40d9-bddc-eb61e93dfc14)
 
 ![image](https://github.com/user-attachments/assets/4e48f892-3b94-4b9f-b2f5-b6056bd2e95a)
 
