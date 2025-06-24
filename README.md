@@ -29,7 +29,7 @@ Before you begin, ensure you have the following installed:
 
 You will also need:
 
-* An **Ethereum RPC URL** that supports `debug_traceTransaction` (e.g., Tenderly, Geth with tracing enabled, Erigon).
+* An **Unichain RPC URL** that supports `debug_traceTransaction` .
 * An **Uniscan API Key** (or Etherscan / chain equivalent explorer API key) to fetch contract ABIs.
 
 ## Installation
